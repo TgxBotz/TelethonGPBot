@@ -32,7 +32,7 @@
     },
     "BOT_US": {
       "description": "Your Bot username without '@'.",
-      "value": "",
+      "value": ""
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
