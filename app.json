@@ -1,0 +1,59 @@
+{
+  "name": "Group-Manager Bot",
+  "description": "A simple group-manager bot made with Python [Telethon].",
+  "logo": "https://telegra.ph/file/ec1495d982c0544404970.jpg",
+  "keywords": [
+    "telegram",
+    "GPBot",
+    "plugins",
+    "telegram-GPbot",
+    "productivity",
+    "Group-Manager"
+  ],
+  "repository": "https://github.com/TgxBotz/TelethonGPBot",
+  "website": "https://github.com/TgxBotz/TelethonGPBot",
+  "success_url": "t.me/TgxBots",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Your Bot Token.",
+      "value": ""
+    },
+    "RULES": {
+      "description": "Your Group Rules",
+      "value": ""
+    },
+    "WELCOME_TEXT": {
+      "description": "The msg you want in welcome msg.",
+      "value": ""
+    },
+    "BOT_US": {
+      "description": "Your Bot username without '@'.",
+      "value": "",
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
