@@ -9,12 +9,25 @@
 #    See < https://github.com/TgxBots/TelethonGPBot/blob/master/LICENSE > 
 #    for the license.
 
-from telethon import TelegramClient
+
+import glob
+from pathlib import Path
+from GPBot.utils import load_plugins
 import logging
-from Configs import Config
+from GPBot import Stark
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.INFO)
 
-bot = TelegramClient('Stark', api_id=Config.APP_ID, api_hash=Config.API_HASH)
-Stark = bot.start(bot_token=Config.TOKEN)
+path = "GPBot/plugins/*.py"
+files = glob.glob(path)
+for name in files:
+    with open(name) as a:
+        patt = Path(a.name)
+        plugin_name = patt.stem
+        load_plugins(plugin_name.replace(".py", ""))
+    
+print("Successfully Started Bot!")
+
+if __name__ == "__main__":
+    Stark.run_until_disconnected()
