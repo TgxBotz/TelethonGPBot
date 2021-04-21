@@ -2,7 +2,7 @@
 <h1 align="center"><b>Group-Manager Bot</b></h1>
 <h4 align="center">A Group-Manager Bot made with telethon!</h4>
 
-### Additional Information
+## Additional Information
 [![Stars](https://img.shields.io/github/stars/TgxBotz/TelethonGPBot?style=flat-square&color=yellow)](https://github.com/TgxBotz/TelethonGPBot/stargazers)
 [![Forks](https://img.shields.io/github/forks/TgxBotz/TelethonGPBot?style=flat-square&color=orange)](https://github.com/TgxBotz/TelethonGPBot/fork)
 [![Size](https://img.shields.io/github/repo-size/TgxBotz/TelethonGPBot?style=flat-square&color=green)](https://github.com/TgxBotz/TelethonGPBot/)   
