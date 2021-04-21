@@ -2,6 +2,13 @@
 <h1 align="center"><b>Group-Manager Bot</b></h1>
 <h4 align="center">A Group-Manager Bot made with telethon!</h4>
 
+### Additional Information
+[![Stars](https://img.shields.io/github/stars/TgxBotz/TelethonGPBot?style=flat-square&color=yellow)](https://github.com/TgxBotz/TelethonGPBot/stargazers)
+[![Forks](https://img.shields.io/github/forks/TgxBotz/TelethonGPBot?style=flat-square&color=orange)](https://github.com/TgxBotz/TelethonGPBot/fork)
+[![Size](https://img.shields.io/github/repo-size/TgxBotz/TelethonGPBot?style=flat-square&color=green)](https://github.com/TgxBotz/TelethonGPBot/)   
+[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TgxBotz/TelethonGPBot)
+
 ## Configs
 ```
 APP_ID - Your telgam api id.
