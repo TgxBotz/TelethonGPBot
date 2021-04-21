@@ -18,6 +18,9 @@ RULES - Your telegram group rules
 WELCOME_TEXT - The text msg which you want in your welcome msg.
 ```
 
+## Our Telegram Support Chat
+[![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/Tgxsupportchat)
+
 # Deploy
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TgxBotz/TelethonGPBot/blob/main)
 
