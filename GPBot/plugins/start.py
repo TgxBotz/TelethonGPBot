@@ -8,7 +8,7 @@ I am a bot who works for @TgxSupportChat and can detect spammers in groups can p
 **Click the below button for getting help menu!**
 """
 
-@Stark.on(events.NewMessage(pattern="^[?!/]start"))
+@Stark.on(events.NewMessage(pattern="^[?!/]start$"))
 async def start(event):
 
     if event.is_private:
