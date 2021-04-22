@@ -28,6 +28,7 @@ for name in files:
         load_plugins(plugin_name.replace(".py", ""))
     
 print("Successfully Started Bot!")
+print("Visit @TgxBotz")
 
 if __name__ == "__main__":
     Stark.run_until_disconnected()
